@@ -5,7 +5,7 @@
   "dependencies": {
     "@fontsource/inter": "^5.0.8",
     "@fontsource/orbitron": "^5.0.8",
-    "@react-three/drei": "^9.88.13",
+    "@react-three/drei": "9.104.0",
     "@react-three/fiber": "^8.15.11",
     "aos": "^2.3.4",
     "framer-motion": "^10.16.16",
@@ -18,12 +18,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install --legacy-peer-deps && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  }
-
-,
+  },
   "browserslist": {
     "production": [
       ">0.2%",
